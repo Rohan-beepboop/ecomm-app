@@ -1,0 +1,29 @@
+/* Palette: deep teal ink, amber accent, cool off-white paper. */
+:root {
+  --ink: #12343b;
+  --ink-soft: #1d4a53;
+  --accent: #c9801a;
+  --accent-dark: #a96a12;
+  --paper: #f3f6f5;
+  --bs-body-bg: var(--paper);
+  --bs-body-color: #1b2528;
+  --bs-body-font-family: "Source Sans 3", system-ui, sans-serif;
+  --bs-link-color: var(--ink-soft);
+}
+.heading, .brand { font-family: "Bricolage Grotesque", Georgia, serif; font-weight: 700; letter-spacing: -0.01em; }
+.site-nav { background: var(--ink); }
+.brand { font-size: 1.35rem; }
+.cart-badge { background: var(--accent); color: #fff; }
+.btn-accent { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+.btn-accent:hover, .btn-accent:focus-visible { background: var(--accent-dark); border-color: var(--accent-dark); color: #fff; }
+.btn-ink { background: var(--ink); border-color: var(--ink); color: #fff; }
+.btn-outline-ink { border-color: var(--ink); color: var(--ink); }
+.btn-outline-ink:hover { background: var(--ink); color: #fff; }
+.product { border: 1px solid #d5dedb; background: #fff; }
+.product .card-img-top { aspect-ratio: 10 / 7; object-fit: cover; background: #dfe7e4; }
+.price { font-weight: 700; color: var(--ink); font-size: 1.1rem; }
+.thumb { width: 48px; height: 48px; object-fit: cover; border-radius: 4px; background: #dfe7e4; }
+.qty-input { width: 64px; }
+.site-footer { background: #e4ebe8; color: #44575a; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
